@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Hoàng Long Dũng</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #27ae60;
+            --bg-color: #f8f9fa;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: #333;
+        }
+        header {
+            background: var(--primary-color);
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: var(--secondary-color);
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+        section {
+            background: #fff;
+            margin-bottom: 30px;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: var(--primary-color);
+        }
+        h2 {
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 10px;
+        }
+        .project-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border-left: 5px solid var(--secondary-color);
+        }
+        .btn {
+            display: inline-block;
+            background: var(--secondary-color);
+            color: #fff;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background: #219150;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: var(--primary-color);
+            color: #fff;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>Hoàng Long Dũng | Digital Portfolio</h2>
+        <nav>
+            <a href="#gioi-thieu">Giới thiệu</a>
+            <a href="#du-an">Dự án</a>
+            <a href="#tong-ket">Tổng kết</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- TRANG GIỚI THIỆU -->
+        <section id="gioi-thieu">
+            <h2>I. Giới thiệu bản thân</h2>
+            <p><strong>Họ và tên:</strong> Hoàng Long Dũng</p>
+            <p><strong>Ngành học:</strong> Điện tử Viễn thông (CN9) - Trường Đại học Công nghệ (UET)</p>
+            <p><strong>Mục tiêu học tập:</strong> Tối ưu hóa việc sử dụng các công cụ kỹ thuật số và trí tuệ nhân tạo để phục vụ cho việc học tập, nghiên cứu và quản lý dự án cá nhân.</p>
+            <p><strong>Mục tiêu Portfolio:</strong> Lưu trữ, hệ thống hóa các sản phẩm đã thực hiện trong môn học, đồng thời thể hiện kỹ năng ứng dụng công nghệ số vào thực tiễn.</p>
+        </section>
+
+        <!-- TRANG DỰ ÁN -->
+        <section id="du-an">
+            <h2>II. Hệ thống hóa bài tập thành phần</h2>
+            
+            <div class="project-card">
+                <h3>Bài 1: Thao tác cơ bản với tệp tin và thư mục</h3>
+                <p><strong>Mục tiêu:</strong> Xây dựng cấu trúc thư mục lưu trữ dữ liệu học tập khoa học.</p>
+                <p><strong>Quá trình thực hiện:</strong> Đã thiết lập hệ thống thư mục cây phân cấp, tuân thủ quy tắc đặt tên không dấu, có tiền tố ngày tháng để dễ truy xuất.</p>
+                <a href="#" class="btn">Xem minh họa (Link ảnh/Drive)</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Bài 2: Tìm kiếm và đánh giá thông tin học thuật</h3>
+                <p><strong>Mục tiêu:</strong> Ứng dụng toán tử nâng cao để lọc tài liệu chuyên ngành.</p>
+                <p><strong>Quá trình thực hiện:</strong> Sử dụng các toán tử AND, OR, filetype:pdf trên Google Scholar để tìm kiếm tài liệu. Lập bảng đánh giá độ tin cậy của các nguồn tin tìm được.</p>
+                <a href="#" class="btn">Xem báo cáo (Link PDF)</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Bài 3: Viết Prompt hiệu quả cho tác vụ học tập</h3>
+                <p><strong>Mục tiêu:</strong> Giao tiếp hiệu quả với AI tạo sinh để tối ưu hóa kết quả đầu ra.</p>
+                <p><strong>Quá trình thực hiện:</strong> So sánh kết quả giữa Prompt cơ bản và Prompt có cấu trúc (gắn bối cảnh, chỉ định vai trò, yêu cầu định dạng).</p>
+                <a href="#" class="btn">Xem phân tích (Link Docs)</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Bài 4: Sử dụng công cụ hợp tác trực tuyến</h3>
+                <p><strong>Mục tiêu:</strong> Quản lý dự án và làm việc nhóm không khoảng cách.</p>
+                <p><strong>Quá trình thực hiện:</strong> Thiết lập bảng Kanban theo dõi tiến độ công việc và phân công nhiệm vụ cho các thành viên trong nhóm.</p>
+                <a href="#" class="btn">Xem minh chứng (Link ảnh chụp)</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Bài 5: Sử dụng AI tạo sinh hỗ trợ sáng tạo nội dung</h3>
+                <p><strong>Mục tiêu:</strong> Tự động hóa và tối ưu hóa việc tạo ra các sản phẩm truyền thông đa phương tiện.</p>
+                <p><strong>Quá trình thực hiện:</strong> Lên ý tưởng và sử dụng AI để hoàn thiện một sản phẩm nội dung số (hình ảnh/bài viết).</p>
+                <a href="#" class="btn">Xem sản phẩm (Link đính kèm)</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Bài 6: Sử dụng AI có trách nhiệm</h3>
+                <p><strong>Mục tiêu:</strong> Đảm bảo tính minh bạch, đạo đức và liêm chính học thuật khi sử dụng AI.</p>
+                <p><strong>Quá trình thực hiện:</strong> Xây dựng bộ nguyên tắc cá nhân, khai báo rõ ràng các phần việc có sử dụng sự trợ giúp của AI (bao gồm cả việc khởi tạo giao diện Portfolio này).</p>
+                <a href="#" class="btn">Xem nguyên tắc (Link tài liệu)</a>
+            </div>
+        </section>
+
+        <!-- TRANG TỔNG KẾT -->
+        <section id="tong-ket">
+            <h2>III. Tổng kết dự án</h2>
+            <p><strong>Trải nghiệm và cảm nhận:</strong> Quá trình xây dựng Portfolio giúp tôi nhìn nhận lại toàn bộ chuỗi kiến thức đã học một cách hệ thống. Việc áp dụng các kỹ năng số không chỉ giải quyết bài tập mà còn mở ra những phương pháp làm việc thông minh hơn.</p>
+            <p><strong>Kiến thức tâm đắc nhất:</strong> Kỹ năng viết Prompt có cấu trúc và việc nhận thức rõ ranh giới của việc sử dụng AI có trách nhiệm.</p>
+            <p><strong>Thách thức đã vượt qua:</strong> Triển khai kỹ thuật số hóa toàn bộ dữ liệu cá nhân lên nền tảng trực tuyến, tự tay biên dịch mã nguồn để xây dựng Portfolio đúng cấu trúc yêu cầu.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2026 Hoàng Long Dũng. Sản phẩm thuộc môn Nhập môn Công nghệ số.</p>
+    </footer>
+
+</body>
+</html>
